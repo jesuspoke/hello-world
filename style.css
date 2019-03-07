@@ -1,3 +1,52 @@
-body{
-    background-color: blue;
+body {
+    background-color: green;
 }
+
+.navbar {
+    text-transform: uppercase;
+}
+
+.my-font {
+    font-family: "PT Sans Narrow";
+}
+
+.nav-link {
+    opacity: 1;
+    
+}
+
+.nav-link:hover {
+    opacity: 5;
+    background-image: url("https://fortunedotcom.files.wordpress.com/2019/01/boo.jpg")
+}
+
+.nav-item {
+    background-color: green
+}
+header {
+    height: 600px;
+    width: 100%;
+    background-image: url("boo.jpg");
+    background-size: cover;
+}
+
+.services{
+    text-align:Center;
+    color: red;
+}
+
+.services i{
+    color: #000;
+    font-size: 30px;
+    padding: 25px 20px;
+    background-color: #5bc0de;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%
+}
+
+.services span{
+    width: 200px;
+    display: inline-block;
+}
+
